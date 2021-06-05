@@ -1,8 +1,22 @@
 ### EMILLY SANTOS PORTO
 
-Procuro atualmente realizar um sonho que seria trabalha com Desenvolvimento Front-End.
-Continuo com nessa batalha, mas enquanto não tenho a oportunidade de fazer parte de uma equipe em um empresa
-de Desenvolvedores te mostrei o que consigo fazer por meio do projetos no Git.
+Atualmente procuro realizar um sonho que seria se tornar uma Desenvolvedora Front-End.
 
-Tenho experiencia de 3 anos na ares de desenvolvimento e quero aumentar essa experiencia.
+Sou apaixonada pela area de T.I, sempre soube disso na minha adolescencia, mas enquanto não tenho a oportunidade de fazer parte de uma equipe em um empresa
+de Desenvolvedores mostrei o que consigo fazer por meio de projetos no GitHub.
+
+Tenho experiencia de 3 anos na ares de desenvolvimento, com:
+
+-HTML
+
+-CSS
+
+-Javascript
+
+-Scrum
+
+-Bootstrap
+
+-Jquery
+
 Se tiver disposto poderiamos nos conectar!
