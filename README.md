@@ -1,30 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-### EMILLY SANTOS PORTO
-
-Procuro realizar uma vontade da adolescencia que seria se tornar uma Engenheira Front-End.
-
-Sou apaixonada pela area de T.I, mas enquanto não tenho a oportunidade de fazer parte de uma equipe em um empresa
-de Desenvolvedores mostrarei o que consigo fazer por meio de projetos no GitHub.
-
-Tenho experiencia de 3 anos na ares de desenvolvimento, com:
-
--HTML
-
--CSS
-
--Javascript
-
--Scrum
-
--Bootstrap
-
--Jquery
-
-Se tiver disposto poderiamos nos conectar!
-=======
-=======
->>>>>>> d6d6843d90d27049c9a69750db4b8d02487375de
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -95,7 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-<<<<<<< HEAD
->>>>>>> Initialize project using Create React App
-=======
->>>>>>> d6d6843d90d27049c9a69750db4b8d02487375de

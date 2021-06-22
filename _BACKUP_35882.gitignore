@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-node_modules
-=======
-=======
->>>>>>> d6d6843d90d27049c9a69750db4b8d02487375de
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -27,7 +21,3 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
->>>>>>> Initialize project using Create React App
-=======
->>>>>>> d6d6843d90d27049c9a69750db4b8d02487375de
