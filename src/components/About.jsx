@@ -17,7 +17,7 @@ const About = () => {
         <ul class="timeline">
           <li>
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src={Img1} alt="..." />
+              <img class="rounded-circle img-fluid" src={Img1} alt="img1" />
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
