@@ -1,5 +1,5 @@
 import React from 'react';
-import Img1 from "../assets/img/about/1.jpg";
+import Img1 from "../assets/img/navbar-logo.svg";
 import Img2 from "../assets/img/about/2.jpg";
 import Img3 from "../assets/img/about/3.jpg";
 import Img4 from "../assets/img/about/4.jpg";

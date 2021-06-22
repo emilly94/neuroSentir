@@ -30,8 +30,8 @@ const Services = () =>{
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-restroom fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 class="my-3">Infantil</h4>
-                <p class="text-muted">Atendimento alvo para crianças de 06-12 anos. Agende a sua consulta conosco e venha participar dessa incrivel ajuda psicologica.</p>
+                <h4 class="my-3">Todas as idades</h4>
+                <p class="text-muted">Atendimento para todas as idades. A neuroavaliação é de acordo com a patologia e não a idade, sintam-se acolhidos.</p>
             </div>
         </div>
     </div>
