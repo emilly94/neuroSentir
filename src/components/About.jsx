@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../assets/img/navbar-logo.svg";
+import Img1 from "../assets/img/header-bg.svg";
 
 const About = () => {
   return (
