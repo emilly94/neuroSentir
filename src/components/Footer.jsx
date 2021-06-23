@@ -7,8 +7,8 @@ const Footer = () => {
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Copyright &copy; Website 2021</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/neuro.sentir/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/Neurosentir-102386804488452/?ref=page_internal" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" rel="noreferrer" target="_blank" href="https://www.instagram.com/neuro.sentir/" ><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" rel="noreferrer" target="_blank" href="https://www.facebook.com/Neurosentir-102386804488452/?ref=page_internal"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">

@@ -11250,6 +11250,8 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  margin-left: 255px;
+  width: 300px;
 }
 .team-member img {
   width: 14rem;
