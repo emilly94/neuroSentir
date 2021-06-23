@@ -1,8 +1,5 @@
 import React from "react";
 import Img1 from "../assets/img/navbar-logo.svg";
-import Img2 from "../assets/img/about/2.jpg";
-import Img3 from "../assets/img/about/3.jpg";
-import Img4 from "../assets/img/about/4.jpg";
 
 const About = () => {
   return (
@@ -26,8 +23,8 @@ const About = () => {
               <div class="timeline-body">
                 <p class="text-muted">
                   É a aplicação de testes que tem como finalidade avaliar as
-                  funções mentais, por exemplo: atenção, memória,linguagem,
-                  raciocínio, dentre outros. Além de avaliar todas essasfunções
+                  funções mentais, por exemplo: atenção, memória, linguagem,
+                  raciocínio, dentre outros. Além de avaliar todas essas funções
                   cognitivas, mapeia também aspectos emocionais e da
                   personalidade.
                 </p>
@@ -36,7 +33,12 @@ const About = () => {
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src={Img2} alt="..." />
+            <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="far fa-eye fa-stack-1x fa-inverse"></i>
+            </span>
+            </div>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -45,8 +47,8 @@ const About = () => {
               <div class="timeline-body">
                 <p class="text-muted">
                   Acreditamos no acolhimento, onde nosso obetivo é oferecer um
-                  espaço em potencial,através das Ciências humanas, delineando
-                  caminhos para identificações de causas,com propostas
+                  espaço em potencial, através das Ciências humanas, delineando
+                  caminhos para identificações de causas, com propostas
                   interventivas e terapeuticas...
                 </p>
               </div>
@@ -69,7 +71,7 @@ const About = () => {
                 <p class="text-muted">
                   Nossa missão é acolher deforma eficiente e satisfatória, com
                   ética e respeito, visando o cuidado integral do ser humano na
-                  sua diversidade,subjetividade e ambiente, de uma sociedade
+                  sua diversidade, subjetividade e ambiente, de uma sociedade
                   baseada na equidade.
                 </p>
               </div>
@@ -77,7 +79,12 @@ const About = () => {
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src={Img4} alt="..." />
+            <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
+            </span>
+            </div>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
