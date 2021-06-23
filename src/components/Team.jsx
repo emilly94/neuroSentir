@@ -13,17 +13,17 @@ const Team = () =>{
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src={Img1} alt="..." />
-                            <h4>Alessandra</h4>
-                            <p class="text-muted">Psicóloga</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <img class="mx-auto rounded-circle" src={Img2} alt="..." />
+                            <h4>Alessandra Mara Morita</h4>
+                            <p class="text-muted">Neuropsicóloga e Psicóloga</p>
+                            <a class="btn btn-dark btn-social mx-2" rel="noreferrer" target="_blank" href="https://www.instagram.com/neuro.sentir/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.google.com/"><i class="far fa-envelope"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" rel="noreferrer" target="_blank" href="https://api.whatsapp.com/send?phone=11957362956"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src={Img2} alt="..." />
+                            <img class="mx-auto rounded-circle" src={Img1} alt="..." />
                             <h4>Cristiane dos Santos</h4>
                             <p class="text-muted">Psicóloga e Pedagoga</p>
                             <a class="btn btn-dark btn-social mx-2"  rel="noreferrer" target="_blank" href="https://www.instagram.com/psicrisantos/"><i class="fab fa-instagram"></i></a>
