@@ -16,7 +16,7 @@ const Navbar = () => {
                 <li class="nav-item"><a class="nav-link" href="#portfolio"><strong>Portfolio</strong></a></li>
                 <li class="nav-item"><a class="nav-link" href="#about"><strong>Sobre</strong></a></li>
                 <li class="nav-item"><a class="nav-link" href="#team"><strong>Psicologos</strong></a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact"><strong>Contato</strong></a></li>
+                {/*<li class="nav-item"><a class="nav-link" href="#contact"><strong>Contato</strong></a></li>*/}
             </ul>
         </div>
     </div>
