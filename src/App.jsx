@@ -19,7 +19,6 @@ function App() {
       <Portifolio/>
       <About/>
       <Team/>
-      <Contacts/>
       <Footer/>
     </div>
   );
