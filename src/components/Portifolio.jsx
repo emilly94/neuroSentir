@@ -1,114 +1,79 @@
 import React from 'react';
-import Img1 from "../assets/img/portfolio/1.jpg";
-import Img2 from "../assets/img/portfolio/2.jpg";
-import Img3 from "../assets/img/portfolio/3.jpg";
-import Img4 from "../assets/img/portfolio/4.jpg";
-import Img5 from "../assets/img/portfolio/5.jpg";
-import Img6 from "../assets/img/portfolio/6.jpg";
-import PortifolioModal from './PotofolioModal';
 
 const Portifolio = () => {
   return(
-    <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Abordagem</h2>
-                    <h3 class="section-subheading text-muted">Psicanálise a luz da teoria Winnicottiana.</h3>
+    <section class="pt-4">
+            <div class="container px-lg-5">
+            <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Objetivos</h2>
+                    <h3 class="section-subheading text-muted">Psicanálise a luz da teoria Winnicottiana.</h3><br />
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                       
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={Img1} alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                <div class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fas fa-hand-holding-heart"></i></div>
+                                <h2 class="fs-4 fw-bold">Auxílio diagnóstico</h2>
+                                <p class="mb-0">Escrever um texto sobreo titulo</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                       
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={Img2} alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fas fa-chart-line"></i></div>
+                                <h2 class="fs-4 fw-bold">Prognóstico</h2>
+                                <p class="mb-0">Escrever um texto sobreo titulo</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                       
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={Img3} alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fas fa-edit"></i></div>
+                                <h2 class="fs-4 fw-bold">Orientação para tratamento</h2>
+                                <p class="mb-0">Escrever um texto sobreo titulo</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                       
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={Img4} alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fab fa-slideshare"></i></div>
+                                <h2 class="fs-4 fw-bold">Auxílio no planejamento de reabilitação</h2>
+                                <p class="mb-0">Escrever um texto sobreo titulo</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                       
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={Img5} alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fas fa-clipboard-list"></i></div>
+                                <h2 class="fs-4 fw-bold">Criação de estratégias com o intuito de providenciar melhorias em seu cotidiano</h2>
+                                <p class="mb-0">Escrever um texto sobreo titulo</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src={Img6} alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fas fa-user-md"></i></div>
+                                <h2 class="fs-4 fw-bold">Perícia</h2>
+                                <p class="mb-0">Escrever um texto sobreo titulo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fas fa-heartbeat"></i></div>
+                                <h2 class="fs-4 fw-bold">Qual o momento certo para solicitar uma avaliação neuropsicológica?</h2>
+                                <p class="mb-0">Quando é percebida em determinada pessoa alguma alteração de ordem neurológica, é importante chamar a atenção para o fato de que não só em casos de transtornos ou distúrbios, mas também quando um indivíduo convive com alguma desordem ocasionada por AVC, traumatismo craniano, situações de demência, entre outras.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <PortifolioModal/>
         </section>
   );
 }
