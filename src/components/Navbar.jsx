@@ -13,7 +13,7 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                 <li class="nav-item"><a class="nav-link" href="#services"><strong>Serviços</strong></a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio"><strong>Portfolio</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="#portifolio"><strong>Portifolio</strong></a></li>
                 <li class="nav-item"><a class="nav-link" href="#about"><strong>Sobre</strong></a></li>
                 <li class="nav-item"><a class="nav-link" href="#team"><strong>Psicologos</strong></a></li>
                 {/*<li class="nav-item"><a class="nav-link" href="#contact"><strong>Contato</strong></a></li>*/}
